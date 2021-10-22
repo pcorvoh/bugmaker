@@ -1,0 +1,34 @@
+WeiJianDBConfig:
+  host: 112.74.184.32
+  user: apitest
+  password: Q7a7AMvwJmGo
+  port: 3201
+  db: artcloud_user
+
+MyDBConfig:
+  host: 127.0.0.1
+  user: root
+  password: 123456
+  port: 3306
+  db: db_school
+
+DBPoolMasterConfig:
+  host: 127.0.0.1
+  user: root
+  password: 123456
+  port: 3306
+  database: db_school
+  maxconnections: 15
+  mincached: 5
+  maxcached: 10
+
+
+DBPoolLocalHostConfig:
+  host: 127.0.0.1
+  user: root
+  password: 123456
+  port: 3306
+  database: db_school
+  maxconnections: 15
+  mincached: 5
+  maxcached: 10

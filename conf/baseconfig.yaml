@@ -1,0 +1,17 @@
+logconfig:
+  log_format: '%%(asctime)s - [%%(levelname)s] - %%(module)s - %%(name)s - %%(lineno)d - [日志信息]：%%(message)s'
+  _log_format: '%(asctime)s - [%(filename)s-->line:%(lineno)d] - %(levelname)s: %(message)s'
+
+email:
+  # 发件人邮箱
+  user:  123456.com
+  # 发件人邮箱授权码
+  password:  ASGCSFSGS
+  # 邮箱host
+  host:  smtp.163.com
+  contents:  解压apiAutoReport.zip(接口测试报告)后，请使用已安装Live Server 插件的VsCode，打开解压目录下的index.html查看报告
+  # 收件人邮箱
+  addressees:  ["收件人邮箱1", "收件人邮箱2"]
+  title:  接口自动化测试报告(见附件)
+  # 附件
+  enclosures: report.zip
